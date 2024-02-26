@@ -12,7 +12,7 @@ This is a simple web application that allows users to generate random numbers wi
 
 1. Open `index.html` in a web browser.
 2. Enter the desired minimum and maximum values.
-3. Click the "Generate" button to get a random number within the specified range.
+3. Click the "Generate" button to get a random number within the specified range (Positive number only and zero).
 4. The generated number will be displayed below the button.
 
 ## Project Structure
