@@ -1,6 +1,6 @@
 # Random Number Generator
 
-This is a simple web application that allows users to generate random numbers within a specified range. The application includes two input fields for minimum and maximum values, and a button to generate a random number within the provided range.
+This is a [simple web application](https://francorossids.github.io/RandomNumberReneratorJS/) that allows users to generate random numbers within a specified range. The application includes two input fields for minimum and maximum values, and a button to generate a random number within the provided range.
 
 ## Features
 
@@ -10,7 +10,7 @@ This is a simple web application that allows users to generate random numbers wi
 
 ## Usage
 
-1. Open `index.html` in a web browser.
+1. Open `index.html` in a web browser or click the next [link](https://francorossids.github.io/RandomNumberReneratorJS/).
 2. Enter the desired minimum and maximum values.
 3. Click the "Generate" button to get a random number within the specified range (Positive number only and zero).
 4. The generated number will be displayed below the button.
@@ -24,6 +24,7 @@ This is a simple web application that allows users to generate random numbers wi
 ## How to Run
 
 Simply open the `index.html` file in a web browser to use the Random Number Generator.
+Click the next [link](https://francorossids.github.io/RandomNumberReneratorJS/)
 
 ## Screenshots
 
