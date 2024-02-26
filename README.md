@@ -27,7 +27,8 @@ Simply open the `index.html` file in a web browser to use the Random Number Gene
 
 ## Screenshots
 
-![Screenshot](![image](https://github.com/FrancoRossiDs/RandomNumberReneratorJS/assets/90211516/be02856e-11fa-47e9-a4df-207df2f774dc))
+![image](https://github.com/FrancoRossiDs/RandomNumberReneratorJS/assets/90211516/47848d82-f1a7-432b-ac13-045ef6ddf02a)
+
 
 ## Author
 
