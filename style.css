@@ -1,0 +1,105 @@
+/* Reset default margin, padding, and box-sizing */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+#title {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.generator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    margin-top: 3rem;
+}
+
+.input {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0.5em;
+}
+
+#min, #max {
+    width: 5rem;
+    border-radius: 0.5em;
+    height: 1.6em;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.generated {
+    padding: 0.5em 1em;
+}
+
+#generate {
+    margin-top: 1em;
+    cursor: pointer;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0.5em;
+}
+
+#result, .style-letters {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 1em;
+    width: 70%;
+    margin: 2em auto;
+    background-color: white;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    .generator {
+        flex-direction: column;
+        gap: 2em;
+        text-align: center;
+    }
+
+    #min, #max {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #title {
+        font-size: 1.5rem;
+    }
+
+    .generator {
+        gap: 1em;
+    }
+
+    #min, #max {
+        width: 60%;
+    }
+
+    #generate {
+        width: 80%;
+        margin-top: 1em;
+    }
+
+    .container {
+        width: 90%;
+        padding: 0.5rem;
+    }
+}
